@@ -9,8 +9,8 @@ header {
     margin: auto 2em;
 }
 
-sig1 {
-    float: right;
+rx1 {
+    text-align: right;
 }
 
 p {
