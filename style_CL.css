@@ -10,11 +10,7 @@ header {
 }
 
 sig1 {
-    margin-right: 0;
-}
-
-ral {
-    margin-right: 0;
+    float: right;
 }
 
 p {
