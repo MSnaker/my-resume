@@ -1,12 +1,16 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
-    max-width: 960px;
-    margin: auto;
+    max-width: 480px;
+    margin: 100px auto;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
 }
 
 s1 {
-    align-content: flex-end;
+    align-content: end;
 }
 
 p {
