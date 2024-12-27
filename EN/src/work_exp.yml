@@ -40,6 +40,20 @@ Companies:
       Flight Software Engineer:
         tasks:
           - Software Development
-          - 
+          - Software Engineering
+          - System Engineering
+        duration:
+          start: 2022-07-01
+          end: ongoing
+        description: |
+          The role's purpose is to develop Flight Software routines 
+          for the Spacecraft's Mode Control, Thermal Control, and FDIR 
+          (Fault Detection, Isolation, and Recovery) mechanisms. This 
+          development process encompasses software requirements 
+          definition, flow design, and code writing. 
+          These routines are written in MicroPython and interface with
+          the operating system through both built-in and
+          company-specific modules.
+          
 
   

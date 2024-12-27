@@ -1,0 +1,36 @@
+past_and_present_projects:
+  - name: Flight OBCPs
+    period: 2024 - ongoing
+    description: >
+      Development of On Board Controlling Procedures for the next Spacecraft to be released by D-Orbit.
+      Function: enable and maintain a specific operating mode on the Spacecraft.
+
+  - name: Automatic Spacecraft AIV Testing Scripts
+    period: 2023 - ongoing
+    description: >
+      Development and/or improvement of automatic testing scripts, to be run during the Assembly,
+      Integration and Testing phase of D-Orbit's ION Spacecraft Carrier Vehicle.
+
+  - name: Company processes analysis - IATF norm compliance
+    period: 2022
+    description: >
+      Full mapping of the company processes and matching of said processes to the single norm sections.
+      The final scope of the project is for the company to be fully compliant to IATF standards.
+
+  - name: Python password generator
+    period: 2021
+    description: >
+      Python script with GUI to obtain a password from a previously encrypted source text.
+      The script is meant to adopt an algorithm easy to replicate mentally with the correct source on hand,
+      so that it is not essential to have the tool at hand, to obtain a password.
+
+  - name: Master Thesis
+    period: 2020
+    description: >
+      Title: Design of a coupling surface as alignment aid to an androgynous interface
+      
+      Loosen the alignment tolerances required by androgynous coupling interfaces, through the design
+      of a 3D circular surface that acts as a guide for the interfaces' reciprocal approach, and also
+      performs a function of mechanical coupling against shear forces between the interfaces themselves.
+      
+      Work conducted within the iBOSS project of RWTH Aachen, which developed an architecture to build modular satellites.
