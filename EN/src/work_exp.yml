@@ -1,0 +1,45 @@
+Companies:
+  Zanardi Fonderie:
+    roles: 
+      Technical Area Engineer:
+        tasks:
+          - Technical Specifications
+          - Process Automation
+        duration:
+          start: 2021-03-01
+          end: 2022-08-27
+        description: |
+          The role was dedicated to developing and maintaining 
+          Technical specifications for the machining department
+      IATF:169-49 Engineer:
+        tasks: 
+          - Company process mapping
+          - Certification Documentation
+        duration:
+          start: 2022-01-01
+          end: 2022-08-27
+        description: |
+          The role was focused on the evolution of the company towards 
+          compliance with the IATF 16949 (Automotive) norm.
+  D-Orbit:
+    roles:
+      Junior Spacecraft Test Engineer:
+        tasks: 
+          - Software development
+          - Spacecraft AIV
+          - Spacecraft AIT 
+          - System Engineering
+        duration:
+          start: 2022-08-29
+          end: ongoing
+        description: |
+          The role is mainly dedicated to the development of scripts 
+          to automate the Spacecraft AIV procedures, however, 
+          the required knowledge of the S/C software and hardware 
+          is also applied in providing support during the AIV phases.
+      Flight Software Engineer:
+        tasks:
+          - Software Development
+          - 
+
+  
