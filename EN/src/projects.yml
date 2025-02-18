@@ -34,3 +34,9 @@ past_and_present_projects:
       performs a function of mechanical coupling against shear forces between the interfaces themselves.
       
       Work conducted within the iBOSS project of RWTH Aachen, which developed an architecture to build modular satellites.
+
+  - name: PC Tower Shelf
+    period: 2021
+    description: >
+      Sheet metal design of a custom shelf for my Personal Computer. The shelf adapted to the desk structure, 
+      and was supported at its free edge by two steel cables, which also kept the PC tower from oscillating.
