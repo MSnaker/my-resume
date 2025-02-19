@@ -83,7 +83,9 @@ h1, h2 {
     width: 150%;
     top: 100%;
     left: 50%;
-    margin-left: -50%; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -75%; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-top: 5px;
+    opacity: 100;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
