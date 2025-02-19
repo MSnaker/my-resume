@@ -23,7 +23,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          working-directory: src/LaTeX
+          working_directory: src/LaTeX
           root_file: main.tex
     #   - name: Upload PDF file
     #     uses: actions/upload-artifact@v4
