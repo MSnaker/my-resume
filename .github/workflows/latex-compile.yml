@@ -9,9 +9,9 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
         with:
-            sparse-checkout: |
-              .github
-              src
+          sparse-checkout: |
+            .github
+            src
 
       - name: Test previous commit
         run: |
@@ -23,7 +23,8 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: /src/LaTeX/main.tex
+          working-directory: src/LaTeX
+          root_file: main.tex
     #   - name: Upload PDF file
     #     uses: actions/upload-artifact@v4
     #     with:
