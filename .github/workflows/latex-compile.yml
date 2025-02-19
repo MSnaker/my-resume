@@ -11,7 +11,10 @@ jobs:
       - name: Test previous commit
         run: |
           git log -1
-          ls -la
+          echo "Show the files in the src directory"
+          ls -la src
+          echo "Show the files in the LaTeX directory"
+          ls -la src/LaTeX
     #   - name: Compile LaTeX document
     #     uses: xu-cheng/latex-action@v3
     #     with:
