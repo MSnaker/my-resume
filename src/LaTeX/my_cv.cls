@@ -25,13 +25,18 @@
 %LET'S PUT A FORMAT TO THE DOCUMENT'S SECTIONS
 %Because we are using the article template, they will be 0: title? 1:chapter 2:section 3:subsection 4:subsubsection 5:paragraph 6:?
 
-\titlespacing*{\section}{}{5mm}{5mm}
-\titleformat{\section}         % Customise the \section command 
-  {\color{Leaf}\Large\scshape\raggedright\textbf} % Make the \section headers large (\Large), small capitals (\scshape) and left aligned (\raggedright)
-  {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
-  {}                           % Can be used to insert code before the heading
-  [{\color{Stem}\titlerule}]                 % Inserts a horizontal line after the heading
-  
+% \titlespacing*{\section}{}{.5em}{.5em}
+\titleformat{\section}[hang]					%{command}[shape]
+			{\scshape\raggedright\color{Leaf}\Large}	%{format}
+			{\thesection}{\z@}								%{label}{sep}
+			{}									%{before-code}
+			[{\color{Stem}\titlerule[0.5pt]}]			%[after-code]
+
+% \titleformat{\section}         % Customise the \section command 
+%   {\color{Leaf}\Large\scshape\raggedright\textbf} % Make the \section headers large (\Large), small capitals (\scshape) and left aligned (\raggedright)
+%   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
+%   {}                           % Can be used to insert code before the heading
+%   [{\color{Stem}\titlerule}]                 % Inserts a horizontal line after the heading
 % \bfseries, \itshape: make the heading bold or italic;
 % \scshape:small capitals;
 % \small, \normalsize, \large, \Large, \LARGE, \huge, \Huge: set the font size;
