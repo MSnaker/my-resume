@@ -31,8 +31,8 @@ jobs:
         run: |
           echo "Show the files in the LaTeX directory"
           ls -la src/LaTeX
-    #   - name: Upload PDF file
-    #     uses: actions/upload-artifact@v4
-    #     with:
-    #       name: PDF
-    #       path: /files/main.pdf
+      - name: Release PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: mwe
+          path: src/LaTeX/mwe.pdf
