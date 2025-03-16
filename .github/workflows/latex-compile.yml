@@ -32,7 +32,7 @@ jobs:
           echo "Show the files in the LaTeX directory"
           ls -la src/LaTeX
       - name: Release PDF
-        uses: actions/upload-artifact@v2
+        uses: softprops/action-gh-release@v2
         with:
-          name: mwe
-          path: src/LaTeX/mwe.pdf
+          files: src/LaTeX/mwe.pdf
+          
