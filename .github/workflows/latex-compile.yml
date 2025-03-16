@@ -35,4 +35,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: src/LaTeX/mwe.pdf
+          draft: True
+
           
