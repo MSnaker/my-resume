@@ -25,7 +25,7 @@ jobs:
         with:
           working_directory: src/LaTeX
           root_file: main.tex
-          extra_system_packages: inkscape
+          extra_system_packages: "inkscape"
           latexmk_shell_escape: True
     #   - name: Upload PDF file
     #     uses: actions/upload-artifact@v4
