@@ -25,6 +25,7 @@ jobs:
         with:
           working_directory: src/LaTeX
           root_file: main.tex
+          latexmk_shell_escape: True
     #   - name: Upload PDF file
     #     uses: actions/upload-artifact@v4
     #     with:
