@@ -24,7 +24,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           working_directory: src/LaTeX
-          root_file: main.tex
+          root_file: mwe.tex
           extra_system_packages: "inkscape"
           latexmk_shell_escape: True
       - name: Show files in dir
