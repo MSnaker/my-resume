@@ -24,7 +24,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           working_directory: src/LaTeX
-          root_file: mwe.tex
+          root_file: main.tex
           extra_system_packages: "inkscape"
           latexmk_shell_escape: True
           continue_on_error: true
@@ -32,10 +32,14 @@ jobs:
         run: |
           echo "Show the files in the LaTeX directory"
           ls -laR src/LaTeX
+      - name: Zip all files
+        run: |
+          cd src/LaTeX
+          zip -r main.zip .
       - name: Release PDF
         uses: softprops/action-gh-release@v2
         with:
-          files: src/LaTeX/mwe.pdf
+          files: src/LaTeX/main.zip
           draft: True
 
           
