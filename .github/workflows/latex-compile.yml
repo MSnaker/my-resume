@@ -28,6 +28,8 @@ jobs:
           extra_system_packages: "inkscape"
           latexmk_shell_escape: True
           continue_on_error: true
+          args: "-pdf -file-line-error -interaction=nonstopmode"
+
       - name: Show files in dir
         run: |
           echo "Show the files in the LaTeX directory"
