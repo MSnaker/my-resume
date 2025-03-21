@@ -7,10 +7,8 @@
 \graphicspath{ {./images/} }
 \usepackage{svg}
 \svgpath{ {./images/} }
-
 \usepackage{textpos}
 \setlength{\unitlength}{1mm}
-% \usepackage{everypage}
 \usepackage{setspace}
 \usepackage{lipsum}
 \usepackage{tabu}
@@ -40,15 +38,10 @@
 \definecolor{MyDandelion}{HTML}{e88e01}
 \pagecolor{Petal}
 
-% \AddEverypageHook{}%
 \AddToHook{shipout/background}{%
     % your code here
     \begin{tikzpicture}[overlay, remember picture]
-        \definecolor{Leaf}{HTML}{656d29}
-        \definecolor{Stem}{HTML}{a8a660}
         \definecolor{Aloe}{HTML}{dadfbc}
-        \definecolor{Petal}{HTML}{e8f1f8}
-        \definecolor{MyDandelion}{HTML}{e88e01}
         % Define a Tikz Path with reference point at current page north west, moving its reference point by (+horoffset, -veroffset). from this path, define a node with the characteristics in the square brackets
         \path (current page.north west) ++(\hoffset, -\voffset) node[anchor=north west, shape=rectangle, inner sep=0, minimum width=\paperwidth, minimum height=\paperheight] (pagearea) {};
         % Now define a path that starts at the NW point of previous node, offset it by
@@ -57,9 +50,6 @@
         \draw[fill=Aloe,Aloe] (marginbox.north west) rectangle (marginbox.south east);
     \end{tikzpicture}
 }
-
-
-
 
 \begin{document}\fontfamily{qhv}\selectfont
 \TPMargin{2mm}
